@@ -1,0 +1,8 @@
+# Copy to `android/key.properties` for a signed release build.
+# This file is git-ignored. Generate a keystore once with:
+#   keytool -genkey -v -keystore ~/lumen-release-key.jks \
+#           -keyalg RSA -keysize 2048 -validity 10000 -alias lumen
+storePassword=YOUR_STORE_PASSWORD
+keyPassword=YOUR_KEY_PASSWORD
+keyAlias=lumen
+storeFile=/absolute/path/to/lumen-release-key.jks
