@@ -20,3 +20,9 @@
     public static *** d(...);
     public static *** v(...);
 }
+-dontwarn com.google.android.play.core.**
+-dontwarn com.google.android.play.core.tasks.**
+-keep class com.google.android.play.core.** { *; }
+-keep class com.google.android.play.core.tasks.** { *; }
+-dontwarn io.flutter.embedding.engine.deferredcomponents.**
+-keep class io.flutter.embedding.engine.deferredcomponents.** { *; }
